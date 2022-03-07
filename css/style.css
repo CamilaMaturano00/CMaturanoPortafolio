@@ -96,8 +96,8 @@ hr{
 }
 section p{
     text-align: center;
-    margin-left: 220px;
-    width: 100%;
+    margin: auto;
+    width: 800px;
     font-size: 20px;
     line-height: 1.9; 
 }
