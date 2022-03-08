@@ -4,31 +4,25 @@ body{
 
     
 }
-header{
-    border:  1px solid #84b6f4
-    ;
-    background-color: #84b6f4
-    ;
-}
 
 .menu-principal{
     width: 100%;
-    position: relative;
+    position: fixed;
     margin: 0 auto;
-    background-color: #84b6f4
+    background-color: #15ab92
     ;
 }
 .titulo{
     padding-left: 35px;
     width: 350px;
-    color: #000000;
+    color: #ffffff;
     font-size: 27px;
     font-weight: bold;
 }
 nav{
     position: absolute;
-    bottom:  5px;
-    right: 10px;
+    bottom:  20px;
+    right: 30px;
 
 }
 nav li{
@@ -42,6 +36,9 @@ nav a{
     font-weight: bold;
     font-size: 20px;
     text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#descargar{
     color: #000;
 }
 
@@ -76,7 +73,7 @@ nav a{
 
 }
 .name{
-    color: orangered;
+    color: #84b6f4;
 }
 .info-personal{
     text-align: center;
@@ -177,7 +174,7 @@ a img{
 
 .footer-basic {
     margin-top: 50px;
-    background-color:#b2e2f2;
+    background-color:#000;
     height: 90px;
 }
 
@@ -197,16 +194,17 @@ a img{
   color:inherit;
   opacity:0.95;
   color: white;
+  border: 2px solid white;
 }
 #linkedin{
     background: #1976D2 ;
 }
 #github{
     background: #000000 ;
-
+    
 }
 .footer-basic .social > a:hover {
-    border: 2px solid white;
+    
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -216,5 +214,5 @@ a img{
   padding-bottom: 10px;
   padding-top: 10px;
   display:inline-block;
-  color:rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
 }
