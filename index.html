@@ -21,7 +21,7 @@
                     <li><a href="#proyectos">PROYECTOS</a></li>
                     <li><a href="#habilidades">HABILIDADES</a></li>
                     <li><a href="#contacto">CONTACTO</a></li>
-                    <li><a href="#contacto" id="descargar"><i class='bx bx-down-arrow-circle bx-fade-down bx-lg' ></i></a></li>
+                    <li><a href="https://drive.google.com/file/d/1CgKYEGI7vMB-9mrceaD_dON0sNCuVvmH/view?usp=sharing" id="descargar" target="_blank"><i class='bx bx-down-arrow-circle bx-fade-down bx-lg' ></i></a></li>
                 </ul>
             </nav>
         </div>
@@ -86,15 +86,19 @@
              </div>
     </section>
        <section class="form-contacto" id="contacto">
-            <h2>Contacto</h2>
-            <label for="nombre">Nombre</label>
-            <input type="text" id="nombre" required>
+           <form id="form" action="" class="form">
+                <h2>Contacto</h2>
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="name" required>
 
-            <label for="Email">Correo electrónico</label>
-            <input type="email" id="email" required>
+                <label for="Email">Correo electrónico</label>
+                <input type="email" id="email" name="email"required>
 
-            <label for="mensaje">Mensaje</label>
-            <textarea name="mensaje" id="" cols="68" rows="10"  required></textarea>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="message" id="" cols="68" rows="10"  required></textarea>
+                <button type="submit" class="boton-enviar">Enviar</button>
+            </form>
+            <a href="mailto:maturano4219@gmail.com" id="direccion-enviar">mail</a>
        </section>
 
     </main>
@@ -114,6 +118,7 @@
             
         </footer>
     </div>
+    
 </body>
-
+    <script src="js/form-contacto.js"></script>
 </html>

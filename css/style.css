@@ -204,7 +204,7 @@ a img{
     
 }
 .footer-basic .social > a:hover {
-    
+
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
@@ -215,4 +215,7 @@ a img{
   padding-top: 10px;
   display:inline-block;
   color:rgb(255, 255, 255);
+}
+#direccion-enviar{
+    opacity: 0;
 }
