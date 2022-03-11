@@ -285,16 +285,16 @@ a img{
     color: #0B486B;
   }
 
-  @media screen and (max-width: 480px){
-    .menu-principal{
-        position: relative; 
-        height: 290px;
+  @media screen and (max-width: 500px){
+    .movil{
+        opacity: 0;
     }
-    nav{
-        position: static;
+    .titulo{
+        padding-left: 0;
+        font-size: 24px;
     }
     nav li{
-        margin-top: 20px;
+
         display: block;
     }
     h2{
@@ -327,7 +327,6 @@ a img{
     }
     .principal, .principal, .info-personal, #habilidades, #proyectos, .footer-basic, .form, .contenedor-proyectos, .contenedor-habilidades{
         width: auto;
-        border: 3px solid saddlebrown;
         height: auto;
     }
     .copyright{
