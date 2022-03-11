@@ -290,7 +290,7 @@ a img{
         opacity: 0;
     }
     .titulo{
-        padding-left: 0;
+        padding-left: 2px;
         font-size: 24px;
     }
     nav li{
@@ -325,7 +325,10 @@ a img{
     section p{
         width: 370px;
     }
-    .principal, .principal, .info-personal, #habilidades, #proyectos, .footer-basic, .form, .contenedor-proyectos, .contenedor-habilidades{
+    .info-personal{
+        margin-top: 100px;
+    }
+    .principal, .info-personal, #habilidades, #proyectos, .footer-basic, .form, .contenedor-proyectos, .contenedor-habilidades{
         width: auto;
         height: auto;
     }
