@@ -26,7 +26,6 @@ nav li{
     display: inline;
     margin: 0 0 0 20px;
     text-decoration: none;
-
 }
 
 nav a{
@@ -285,3 +284,18 @@ a img{
     color: #0B486B;
   }
 
+  @media screen and (max-width: 480px){
+    nav li{
+        display: block;
+    }
+    .contenedor-habilidades{
+        width: 350px;
+        height: auto;
+    }
+    .contenedor{
+
+    }
+    .menu-principal, .principal, .info-personal, #habilidades, #proyectos, .form{
+        width: auto;
+    }
+  }
