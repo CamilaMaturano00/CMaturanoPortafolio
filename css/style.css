@@ -304,7 +304,23 @@ a img{
         width: 80%;
         display: block;
     }
-    .menu-principal, .principal, .info-personal, #habilidades, #proyectos, .form{
+
+    .img-principal{
+        margin-top: 120px;
+        margin-right: 100px;
+        width: 40%;
+        border-radius: 200px;
+    }
+    .presentacion{
+        width: 500px;
+        height: 50px;
+        margin-top: 100px;
+        margin-left: 100px;
+        font-weight: bold;
+        font-size: 55px;
+        color:rgb(0, 0, 0);
+    }
+    .principal, .menu-principal, .principal, .info-personal, #habilidades, #proyectos, .form{
         width: 800px;
         border: 3px solid saddlebrown;
     }
