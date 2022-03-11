@@ -170,7 +170,6 @@ a img{
     margin-left: 30px;
     width: 90%;
     border: 3px black;
-
 }
 /*Pie de página*/
 .footer-basic {
@@ -328,11 +327,25 @@ a img{
     .info-personal{
         margin-top: 100px;
     }
-    .principal, .info-personal, #habilidades, #proyectos, .footer-basic, .form, .contenedor-proyectos, .contenedor-habilidades{
+    .principal, .info-personal, .footer-basic, .form, .contenedor-proyectos, .contenedor-habilidades{
         width: auto;
         height: auto;
+
+    }
+    #habilidades, #proyectos, .form{
+        width: 350px;
+        margin-left: auto;
+        margin-right: auto;
     }
     .copyright{
         display: block;
+    }
+    .proyectos:hover{
+        width: 100%;
+    }
+    a img{
+        margin-left: 18px;
+        width: 90%;
+        border: 3px black;
     }
   }
