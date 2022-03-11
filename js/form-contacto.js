@@ -1,6 +1,6 @@
 const $form = document.querySelector('#form');
 const botonMailto = document.querySelector('#direccion-enviar')
-var botonEnviar = document.querySelector(".boton-enviar");
+var botonEnviar = document.querySelector(".btn-enviar");
 $form.addEventListener("submit",handleSubmit)
 
 function handleSubmit (event){
