@@ -35,6 +35,9 @@ nav a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+nav a:hover{
+    color: blueviolet;
+}
 .descargar{
     padding: 10px;
     background-color: #3498DB ;
@@ -46,6 +49,8 @@ nav a{
 }
 .descargar:hover{
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    color: #3a506b;
+    
 }
 /*Presentacion principal*/
 .principal{
@@ -354,3 +359,4 @@ a img{
         border: 3px black;
     }
   }
+  
