@@ -230,12 +230,16 @@ font-size: 1.1rem;
 }
 /*Formulario de Contacto*/
 #direccion-enviar{
-    opacity: 0;
+    display: none;
 }
 .contacto{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     margin-top: 30px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+
 }
 .form{
     width: 40%;
@@ -344,11 +348,6 @@ font-size: 1.1rem;
     }
     .proyectos{
         height: 1750px;
-
-    }
-    .contacto{
-        margin-left: auto;
-        margin-right: auto;
     }
     .form{
         width: 75%;
