@@ -6,45 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/fontello.css">
     <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap" rel="stylesheet" />
-    <title>Portafolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Oswald:wght@400;500;700&family=Raleway:wght@700&display=swap" rel="stylesheet">    <title>Portafolio</title>
 </head>
 <body>
     <header>
         <div class="menu-principal">
-            <h1 class="titulo">CAMILA MATURANO</h1>
-            <nav >
-                <ul>
-                    <li class="movil"><a href="#inicio">INICIO</a></li>
-                    <li class="movil"><a href="#acerca">ACERCA DE MI</a></li>
-                    <li class="movil"><a href="#habilidades">HABILIDADES</a></li>
-                    <li class="movil"><a href="#proyectos">PROYECTOS</a></li>
-                    <li class="movil"><a href="#contacto">CONTACTO</a></li>
+            <img class="titulo" src="img/Logo.png" alt="">
+            <nav class="menu__nav">
+                <ul class="menu__lista">
+                    <li><a class="menu__item" href="#acerca">ACERCA DE MI</a></li>
+                    <li><a class="menu__item" href="#habilidades">HABILIDADES</a></li>
+                    <li><a class="menu__item" href="#proyectos">PROYECTOS</a></li>
+                    <li><a class="menu__item" href="#contacto">CONTACTO</a></li>
                     <li><a class="descargar " href="https://drive.google.com/file/d/1OaldVpYDmYg3pBmi1xz4UKm1FWgG9Q56/view?usp=sharing" target="_blank">DESCARGAR CV</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <section class="principal" id="inicio" >
+        <section class="principal" id="acerca" >
             <div class="contenedor-presentacion">
                 <p class="presentacion"> Hola, soy <strong class="name">Camila Maturano</strong>  <br />desarrolladora Front-End!</p>
                 <img class="img-principal" src="img/PERFIL.jpg" alt="">
             </div>
+            <div>
+                <div class="presentacion__info">
+                    <p class="presentacion__descripcion">Soy de la provincia de Mendoza tengo 22 años, 
+                        actualmente curso la <strong>Tecnicatura Superior en Desarrollo de Software</strong> .
+                        Estoy en busca de mi primer trabajo, 
+                        he comenzado a desarrollar mis habilidades  en un instituto y 
+                        también de forma autodidacta. Me considero una persona con muchas ganas de 
+                        aprender y con pasión por el trabajo que realizo,
+                        dando todo mi esfuerzo por crecer más día a día en el mundo IT.
+                    </p>   
+                    <div class="social">   
+                        <a href="https://www.linkedin.com/in/camila-maturano/" class="social-media-icon " id="linkedin" target="_blank">
+                            <i class='bx bxl-linkedin'></i>
+                        </a>
+                        <a href="https://github.com/CamilaMaturano00" class="social-media-icon" id="github" target="_blank">
+                            <i class='bx bxl-github'></i>
+                        </a>
+                     </div>
+                </div>
+            </div>
        </section>
-       <section class="info-personal" id="acerca">
-           <h1>Acerca de mi<hr></h1>
-            <p>Mi nombre es Camila soy de la provincia de Mendoza tengo 21 años, 
-                actualmente curso la <strong>Tecnicatura Superior en Desarrollo de Software</strong> .
-                Estoy en busca de mi primer trabajo, 
-                he comenzado a desarrollar mis habilidades  en un instituto y 
-                también de forma autodidacta. Me considero una persona con muchas ganas de 
-                aprender y con pasión por el trabajo que realizo,
-                dando todo mi esfuerzo por crecer más día a día en el mundo IT.
-            </p>
-       </section>
-       <section id="habilidades">
+       <section class="habilidades" id="habilidades">
             <h2>Habilidades</h2>
             <div class="contenedor-habilidades" > 
                 <div class="contenedor">
@@ -57,7 +65,11 @@
                  </div>
                  <div class="contenedor">
                     <img class="img-habilidades" src="img/jss.png" alt="" >
-                     <div class="texto">JAVASCRIPT</div> 
+                     <div class="texto">JAVA SCRIPT</div> 
+                 </div>
+                 <div class="contenedor">
+                    <img class="img-habilidades" src="img/typescript.png" alt=""> 
+                     <div class="texto">TYPESCRIPT</div> 
                  </div>
                  <div class="contenedor">
                     <img class="img-habilidades" src="img/bootstrap.png" alt="" >
@@ -71,50 +83,79 @@
                     <img class="img-habilidades" src="img/mysql.png" alt=""> 
                      <div class="texto">MYSQL</div> 
                  </div>
+
             </div>
        </section>
-       <section id="proyectos">
+       </section>
+       <section class="proyectos" id="proyectos">
         <h2>Proyectos</h2>
         <div class="contenedor-proyectos" > 
-            <div class="proyectos">
-                <div class="texto-proyecto">Encriptador</div> 
-                <a class="img" href="https://camilamaturano00.github.io/" target="_blank" ><img src="img/encriptador.png" alt="" width="40%"> </a>
+            <div class="proyecto">
+                <img  src="img/encriptador.png" alt=""> 
+                <div class="capa">
+                    <a href="https://camilamaturano00.github.io/" target="_blank"><input type="button" value="Encriptador"></a>
+                </div>
+            </div>   
+            <div class="proyecto">
+                <img src="img/juegoAhorcdo.png" alt=""> 
+                <div class="capa">
+                    <a href="https://camilamaturano00.github.io/JuegoDelAhorcado.github.io/" target="_blank"><input type="button" value="Juego Ahorcado"></a>
+                </div>
             </div>
-            <div class="proyectos">
-                 <div class="texto-proyecto">Juego Del Ahorcado</div>
-                 <a class="img" href="https://camilamaturano00.github.io/JuegoDelAhorcado.github.io/" target="_blank"><img src="img/juegoAhorcdo.png" alt="" width="40%"></a>
-             </div>
-    </section>
-       <section  id="contacto">
+            <div class="proyecto">
+                <img src="img/unidadProductiva.png" alt=""> 
+                <div class="capa">
+                    <a href="https://unidadproductiva-c91be.web.app/" target="_blank"><input type="button" value="Unidad Productiva"></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/aluraStore.png" alt=""> 
+                <div class="capa">
+                    <a href="https://camilamaturano00.github.io/Alura-Store/" target="_blank"><input type="button" value="Alura Store"></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/E-commerce.png" alt=""> 
+                <div class="capa">
+                    <a href="https://camilamaturano00.github.io/E-commerceAlura/" target="_blank"><input type="button" value="E-commerce"></a>
+                </div>
+            </div>
+            <div class="proyecto">
+                <img src="img/openSport.png" alt=""> 
+                <div class="capa">
+                    <a href="https://camilamaturano00.github.io/OpenSportsClone/" target="_blank"><input type="button" value="Clon Open Sport"></a>
+                </div>
+            </div>
+        </div>   
+    </section>       
+       <section class="contacto"  id="contacto">
            <form id="form" action="" class="form">
                 <h2>Contacto</h2>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="name" required>
+                <div class="form__informacion">
+                    <input type="text" id="nombre" name="name" placeholder="Nombre" required>
+    
+                    <input type="email" id="email" name="email" placeholder="Correo electronico" required>
+    
+                </div>
+                <div class="form__mensaje">
+                    <textarea name="message" id="" cols="68" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit" class="btn-enviar light">Enviar</button>                    
+                </div>
 
-                <label for="Email">Correo electrónico</label>
-                <input type="email" id="email" name="email"required>
-
-                <label for="mensaje">Mensaje</label>
-                <textarea name="message" id="" cols="68" rows="10"  required></textarea>
-                <button type="submit" class="btn-enviar light">Enviar</button>
             </form>
             <a href="mailto:maturano4219@gmail.com" id="direccion-enviar">mail</a>
        </section>
     </main>
     <div class="footer-basic">
         <footer>
-            <div class="social">
-                <p class="copyright">Camila Maturano © 2022</p>
-                <a href="https://www.linkedin.com/in/camila-maturano/" class="social-media-icon " id="linkedin" target="_blank">
-                    <i class='bx bxl-linkedin'></i>
-                </a>
-                <a href="https://github.com/CamilaMaturano00" class="social-media-icon" id="github" target="_blank">
-                    <i class='bx bxl-github'></i>
-                </a>
+                <p class="copyright">© Camila Maturano  2022</p>
             </div>
             
         </footer>
     </div>
 </body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="js/form-contacto.js"></script>
+    <script src="js/slider-proyectos.js"></script>
+
 </html>
